@@ -7,7 +7,7 @@ header:
     framework! Just download a theme and start customizing, no strings attached!
   action: # action button is optional
     label: Find Out More
-    url: '#about'
+    url: '/about'
 
 
 sections:
@@ -45,3 +45,5 @@ sections:
       - title: Other 2
         text: Some not-so long text here.
         icon: fa-heart
+
+---
