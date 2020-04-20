@@ -6115,6 +6115,11 @@ a.close.disabled {
   text-align: center;
 }
 
+.result li.active a {
+    color: lightgray;
+    cursor: default;
+}
+
 @-webkit-keyframes spinner-border {
   to {
     transform: rotate(360deg);
