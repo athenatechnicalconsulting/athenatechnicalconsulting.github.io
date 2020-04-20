@@ -6,7 +6,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto my-2 my-lg-0">
-        {% for item in site.data.samplelist.toc %}
+        {% for item in site.data.menus.header %}
           <h3>{{ item.title }}</h3>
             <ul>
               {% for entry in item.subfolderitems %}
