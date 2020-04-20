@@ -4,14 +4,20 @@
 # run. So please, fill in any custom menu entry here.
 header:
 - title: Work
-  url: /work/projects
-- title: Presentations
-  url: /work/presentations
+  subfolderitems:
+    - page: Projects
+      url: /work/projects
+    - page: Presentations
+      url: /work/presentations
+
 - title: About
-  url: /about
-- title: Team
-  url: /about/#team
-- title: History
-  url: /about/#timeline
+  subfolderitems:
+    - page: About
+      url: /about
+    - page: Team
+    url: /about/#team
+    - page: History
+    url: /about/#timeline
+
 - title: Blog
   url: /blog
