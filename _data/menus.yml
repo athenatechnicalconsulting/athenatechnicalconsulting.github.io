@@ -3,21 +3,19 @@
 # However on github-pages custom plugins are disabled, and the script doesn't
 # run. So please, fill in any custom menu entry here.
 header:
-- title: Work
-  subfolderitems:
-    - page: Projects
-      url: /projects
-    - page: Presentations
-      url: /presentations
-
-- title: About
-  subfolderitems:
-    - page: About
-      url: /about
-    - page: Team
-    url: /#team
-    - page: History
-    url: /#timeline
-
-- title: Blog
-  url: /blog
+  - title: Work
+    subfolderitems:
+      - page: Projects
+        url: /projects
+      - page: Presentations
+        url: /presentations
+  - title: About
+    subfolderitems:
+      - page: About
+        url: /about
+      - page: Team
+        url: /#team
+      - page: History
+        url: /#timeline
+  - title: Blog
+    url: /blog
