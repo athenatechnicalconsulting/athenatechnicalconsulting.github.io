@@ -11,35 +11,13 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --blue: #007bff;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #dc3545;
-  --orange: #f4623a;
-  --yellow: #ffc107;
-  --green: #28a745;
-  --teal: #20c997;
-  --cyan: #17a2b8;
-  --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #343a40;
-  --primary: #f4623a;
-  --secondary: #6c757d;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #ffc107;
-  --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #343a40;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  /*--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;*/
-  --font-family-monospace: Menlo, monospace;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 *,
@@ -49,7 +27,7 @@
 }
 
 html {
-  font-family: monospace;
+  font-family: font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -62,7 +40,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   /*font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
-  font-family: monospace;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -237,6 +215,7 @@ label {
 
 button {
   border-radius: 0;
+  color: #212529;
 }
 
 button:focus {
@@ -1429,7 +1408,7 @@ pre code {
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #fcd3c8;
+  background-color: #212529;
 }
 
 .table-primary th,
@@ -2240,12 +2219,13 @@ textarea.form-control {
 
 .btn:hover {
   color: #212529;
+  opacity: 0.5;
   text-decoration: none;
 }
 
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(244, 98, 58, 0.25);
+  box-shadow: 0 0 0 0.2rem #212529;
 }
 
 .btn.disabled, .btn:disabled {
@@ -2258,25 +2238,26 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
+  color: #212529;
   background-color: #f4623a;
   border-color: #f4623a;
 }
 
 .btn-primary:hover {
-  color: #fff;
+  color: #212529;
+  opacity: 0.5;
   background-color: #f24516;
   border-color: #ee3e0d;
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
+  box-shadow: 0 0 0 0.2rem #212529;
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #212529;
+  border-color: #212529;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
@@ -2530,35 +2511,36 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #f4623a;
-  border-color: #f4623a;
+  color: #212529;
+  border-color: #212529;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #212529;
+  border-color: #212529;
+  opacity: 0.5;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(244, 98, 58, 0.5);
+  box-shadow: 0 0 0 0.2rem #212529;;
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #f4623a;
+  color: #212529;;
   background-color: transparent;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #212529;;
+  border-color: #212529;;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(244, 98, 58, 0.5);
+  box-shadow: 0 0 0 0.2rem #212529;
 }
 
 .btn-outline-secondary {
@@ -4715,18 +4697,18 @@ a.badge:hover, a.badge:focus {
 }
 
 .badge-primary {
-  color: #fff;
-  background-color: #f4623a;
+  color: #212529;;
+  background-color: #212529;
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
-  color: #fff;
-  background-color: #ee3e0d;
+  color: #212529;
+  background-color: #212529;
 }
 
 a.badge-primary:focus, a.badge-primary.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(244, 98, 58, 0.5);
+  box-shadow: 0 0 0 0.2rem #212529;
 }
 
 .badge-secondary {
@@ -6213,7 +6195,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #4b5320 !important;
+  background-color: #212529 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6241,7 +6223,7 @@ a.bg-success:hover, a.bg-success:focus,
 button.bg-success:hover,
 button.bg-success:focus {
   background-color: #1e7e34 !important;
-} */
+} 
 
 .bg-info {
   background-color: #4b5320 !important;
@@ -6299,7 +6281,7 @@ button.bg-dark:focus {
 
 .bg-transparent {
   background-color: transparent !important;
-}
+} */
 
 .border {
   border: 1px solid #dee2e6 !important;
@@ -9573,7 +9555,7 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #f4623a;
+  border-color: #fff;
 }
 
 hr.light {
@@ -9599,18 +9581,18 @@ hr.light {
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #fff;
+  background-color: #989898;
   transition: background-color 0.2s ease;
 }
 
 #mainNav .navbar-brand {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  color: #212529;
+  color: #989898;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: #6c757d;
+  color: #989898;
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   font-size: 0.9rem;
@@ -9618,11 +9600,11 @@ hr.light {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  color: #989898;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: #989898 !important;
 }
 
 @media (min-width: 992px) {
@@ -9631,10 +9613,12 @@ hr.light {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+    color: #989898;
+    opacity: 0.7;
   }
   #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: #989898;
+    opacity: 0.7;  
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.7);
@@ -9720,7 +9704,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: #989898; 
   transition: opacity 0.25s ease;
   text-align: center;
 }
