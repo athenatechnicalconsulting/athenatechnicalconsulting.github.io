@@ -1,19 +1,18 @@
 ---
 layout: page
-title: About
+title: Blog
 #background_style: bg-info
 background_image: url('assets/img/backgrounds/image-from-rawpixel-id-1199650-jpeg.jpg')
 # Add a link to the the top menu
 menus:
   header:
-    title: About
+    title: Blog
     weight: 2
 
 sections:
-- type: paragraph.html
-  
-- type: paragraph.html
+- type: blog.html
+    #section_id: blog
+    #background_style: bg-dark
 
-
-- type: paragraph.html
   
+---

@@ -6,16 +6,16 @@ header:
   - title: Work
     subfolderitems:
       - page: Projects
-        url: /projects
-      - page: Presentations
-        url: /presentations
+        url: /work#portfolio
+      - page: Publications
+        url: /work#publications
   - title: About
     subfolderitems:
-      - page: About
-        url: /about
       - page: Team
-        url: /#team
+        url: /about#team
       - page: History
-        url: /#timeline
+        url: /about#history
+      - page: Contact
+        url: /about#contact
   - title: Blog
     url: /blog

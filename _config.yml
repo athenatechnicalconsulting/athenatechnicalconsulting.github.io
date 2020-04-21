@@ -19,5 +19,4 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - build-in-docker.sh
   - README.md
