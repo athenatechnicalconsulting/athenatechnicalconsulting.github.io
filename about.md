@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-#background_style: bg-dark
+background_style: bg-dark
 background_image: url('assets/img/backgrounds/image-from-rawpixel-id-1199650-jpeg.jpg')
 # Add a link to the the top menu
 menus:
@@ -13,7 +13,7 @@ sections:
 - type: members.html
   section_id: team
   title: The Team
-  background_style: bg-info text-white
+  background_style: bg-secondary text-white
   members:
       - title: Christina M. Aponte
         text: Singer and Songwriter

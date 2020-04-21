@@ -20,6 +20,6 @@ sections:
     actions:
       - title: Get Started!
         url: '#'
-        class: btn-dark
+        class: btn-light
 
 ---

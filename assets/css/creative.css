@@ -6208,7 +6208,6 @@ button.bg-primary:focus {
   background-color: #989898 !important;
 }
 
-/*
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
 button.bg-secondary:focus {
@@ -6273,6 +6272,7 @@ a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
   background-color: #989898 !important;
+  opacity: 0.2;
 }
 
 .bg-white {
@@ -6281,7 +6281,7 @@ button.bg-dark:focus {
 
 .bg-transparent {
   background-color: transparent !important;
-} */
+} 
 
 .border {
   border: 1px solid #dee2e6 !important;
@@ -9721,5 +9721,5 @@ header.masthead h1 {
 }
 
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
-  opacity: 1;
+  opacity: 0.75;
 }

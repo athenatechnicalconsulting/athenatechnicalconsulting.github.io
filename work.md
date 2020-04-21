@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Work
-#background_style: bg-info
+background_style: bg-dark
 background_image: url('assets/img/backgrounds/image-from-rawpixel-id-1199650-jpeg.jpg')
 # Add a link to the the top menu
 menus:
@@ -13,7 +13,7 @@ sections:
 - type: portfolio.html
   title: Projects
   section_id: projects
-  #background_style: bg-dark
+  background_style: bg-dark
   projects:
     - title: Project 1
       text: This is a very short project description.
@@ -54,7 +54,7 @@ sections:
 - type: portfolio.html
   title: Publications
   section_id: publications
-  #background_style: bg-dark
+  background_style: bg-dark
   projects:
     - title: Project 1
       text: This is a very short project description.
